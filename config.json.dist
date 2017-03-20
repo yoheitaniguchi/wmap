@@ -6,7 +6,7 @@
   "endpoint": "json",
   "home": "README.md",
   "map": {
-    "zoom": 14,
+    "zoom": 18,
     "layers": [
       {
         "name": "Open Street Map",
