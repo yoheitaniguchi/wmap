@@ -1,6 +1,6 @@
 # Wmap
 
-[![Build Status](https://travis-ci.org/wakayama-hacker/wmap.svg?branch=master)](https://travis-ci.org/wakayama-hacker/wmap)
+[![Build Status](https://travis-ci.org/yoheitaniguchi/wmap.svg?branch=master)](https://travis-ci.org/wakayama-hacker/wmap)
 
 このプロジェクトでは、 Excel や CSV のオープンデータから簡単にウェブベースのモバイルアプリを作れるようにすることを目標にしています。
 

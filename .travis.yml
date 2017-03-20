@@ -1,18 +1,20 @@
 language: node_js
 node_js:
 - '7.6'
+- "iojs"
+- "6"
 
 before_script:
 - npm install
 
 script:
-- npm test
+- npm run test
 
 after_success: bash ./bin/deploy.sh
 
 env:
   global:
   - GIT_USER: Travis CI
-  - GIT_EMAIL: miya0001@users.noreply.github.com
-  - GH_REF: github.com/wakayama-hacker/wmap.git
-  - secure: "PzYw9UHgw5CyGLlTZAC8S+l04d8IpNVCnvGLtjvYW4J4En9CDfPhA/GPgwaia5zGLd2VrKqoo7yaqGAoRttsk93TsuGoaW/aGQs8Pmy9EDa/pUoMUn4p4x+llfrLWj/53cKCTtzCGZkU0eqkKrEcZOkMKCSHTd0oxZXPZk0yFfqzKBYWBYfTiTepyYWGofqiyXiId+6vQ2ZOZLiCGYwuc7mgu6TBxNhF92QpD6OVdrMkhw98Az/Xt65bpT9f+PGMqkTwS4oVgkalezGd+E6HRWzlf64B3bKeEO2gbPF7ckTNTWxD7yZ6RGU+kQm+c3FF7Uodqhev6c5fNAE4OmsMb+rg6V6OXyeY4Vfl+AGkrpiqPHno4MOFgtQMMljgYNg/yTINi6U0DrgbrvoouosFTffpY1YaqjItJxEvvOZVaRC35R0PVt51myLQP7f2blaQyjY/O93swpXJ8g3Uwx9s88488zEgV8zumNPFGUgqdXB6AB5lrqS49oU40YnT2WnBsRbb6cHdkpl97wgi0j6gmOPHSO3eu5DciRHz9p18D9ecqR4iZDtTcTOpdvx6hwSf8jMvFnT4BiK1gdfZ/kPJRv+FVUX/sjB9705OedbF0frXIym+ycfHKLhKUt/RAbUnqo3VFwnyIRQerKkgVJ4DodbA9tgTEsXE0qZ4zVrN/nI="
+  - GIT_EMAIL: yoheitaniguchi@users.noreply.github.com
+  - GH_REF: git@github.com:yoheitaniguchi/wmap.git
+  - secure: "JBQqEvJFJAzpKuGXOJx6lgjYMUPVIw6EN9EXLbeR/weUCd0k3LLJF9t36lbn5Zekl90CM/Y4XkQXMO7db0C1CZ0iwMEeiAHgNlKR3XYC8aYJEIsYvdmEefFvxsYfm1VK7BcP5/mhsEjfVVBUidJWLFriDcfOuchJt0TPft8LLswGnc585S4xmvUSKVsybDik1XhHxWrwrAFFnG53WEQg/XkirB0PW5CgP79HyGbIdRbJdcnnkhd4ey3QlmoiW4fPmXbtKeWzFqH47vOsQb0MeJjLIXjywXD1b4xQ+wffSrgH5l0iqcbSRXd7XUwYxgAZWKBZTiL/xSY5JkpU757rQDdj0Esth1BqpaWYtp30xvZB8iVKv6b7wYAEwlAqaRXOmRzLAeN5uNArXszr028Xnel9DtUKLN8dNp7MlN0AHxMMTP2qtX2AJ7pkkmZ8nZrnn30ARniApQb6eGKhgay2tAWP8rsQmfMdv+2TeCmSeb6A8o5yckhfW4QxUD/3VSm5RAN998n6Aq6zqRbwo0a68GDrhxw6zvMf8n3l9CVTfKYpsMalSe9bblV9zvPjbtgFydA62/nfJGNqMuCKHiba10OsyFNgLsJtf1FVxmtLYe/xtGiM2bXs+8y7qFxj7ocTGWfcbPJSzSBpj5+YlZXSRmRvZvAqBT1oq2iil8QPfx4="
