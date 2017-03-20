@@ -4,7 +4,7 @@
 /js
 /json
 /node_modules
-npm-debug.log
+npm-debug.log.*
 /tags/home-contents.tag
 index.html
 /config.json
