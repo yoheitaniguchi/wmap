@@ -1,12 +1,12 @@
 {
-	"title": "Wmap",
+	"title": "雑賀崎",
 	"description": "An open source mobile application framework which displays open data.",
-	"url": "https://wmap.wacker.io",
+	"url": "http://wmap.saikazaki.wakayama.jp/",
 	"locale": "ja_JP",
 	"endpoint": "json",
 	"home": "README.md",
 	"map": {
-		"zoom": 14,
+		"zoom": 18,
 		"layers": [
 			{
 				"name": "Open Street Map",
