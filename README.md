@@ -1,3 +1,5 @@
+http://wmap.saikazaki.wakayama.jp/
+
 # 雑賀崎 地元マップ
 ### 和歌山県和歌山市にある小さな漁師町です。
 
